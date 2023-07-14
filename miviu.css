@@ -11,7 +11,7 @@
     flex-direction: column;
     height: 100 vh;
     max-height: 80 vw;
-    width: 100%
+    width: 100%;
     background: url(./IMAGENS/3\ img.png);
     object-fit: cover;
 }
