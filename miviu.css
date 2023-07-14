@@ -27,3 +27,13 @@
     top: -190px;
     color: #fff;
 }
+.botao{
+    background: #f22b0f;
+    color: #fff;
+    width: 216px;
+    height: 55px;
+    border-radius: 8px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
