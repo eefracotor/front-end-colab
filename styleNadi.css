@@ -6,8 +6,6 @@
 
 body {
     background-color: #1b1b1b;
-    color: #fff;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
@@ -22,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar {
@@ -51,7 +50,9 @@ body {
     align-items: center;
     padding-left: 0.938rem;
     padding-right: 0.938rem;
-
+    /* display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr); */
 }
 
 .arrowbox {
@@ -141,4 +142,15 @@ body {
 
 .arrowbox:hover .buttosmall:hover {
     background-color: black;
+}
+
+.totalbutton {
+    width: 325px;
+    height: 45px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
