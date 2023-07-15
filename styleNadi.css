@@ -6,8 +6,8 @@
 
 body {
     background-color: #1b1b1b;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: .8rem;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-betwe;
+    justify-content: center;
     align-items: center;
 }
 
