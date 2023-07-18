@@ -1,0 +1,257 @@
+
+
+body ,ul,li{
+
+border: 1px solid #FFF;
+background: #1B1B1B;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial;
+    color: #FFF;
+    font-size: 1.2rem;
+    
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho {
+display: flex;
+
+flex-direction: row;
+align-items: center;
+padding: 5px;
+flex-wrap: wrap;
+  
+}
+.conteudo-fond{
+    background-color: aquamarine;
+}
+.cabecalho-image{
+height: 30px;
+gap: 20px;
+}
+.cabecalho-menu {
+    display: flex;
+    flex: 1 1 200px;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5;
+}
+.cabecalho-menu-item{
+  font-family: 'sarala',sans-serif;
+color: #042012;
+  font-size: 18px;
+display: flex;
+  margin-left: 0px;
+
+}
+.conteudo{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: Verdana,cursive, sans-serif;
+}
+.box{
+    width:65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6;
+    position: relative;
+    overflow: hidde;
+    cursor: pointer;
+    transition: all.4s ease;
+
+}
+.box:over{
+    width:200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow:0 0 50px #b315917c;
+}
+.conteudo-fond-media-img{
+    width: 36px;
+}
+.conteudo-fond-media-social{
+    display: flex;
+    align-content: center;
+
+}
+.conteudo-fond-pag{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.conteudo-principal-escrito-text{
+    margin: 5px auto;
+   
+    padding: 5px;
+    width: 895px;
+    border: 10px solid #d5d6da;
+
+}
+.li.conteudo-principal-escrito-text-apresentacao{
+    left: 900;
+}
+.div{
+    margin: 3px auto;
+    padding: 5px;
+    width: 895px;
+    border: 0px auto;
+    align-items: center;
+}
+
+.conteudo2{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: Verdana,cursive, sans-serif;
+}
+.conteudo2-principal-escrito-text2{
+    margin: 5px auto;
+   
+    padding: 5px;
+    width: 895px;
+    border: 10px solid #d5d6da;
+
+}
+.section{
+    margin: 3px auto;
+    padding: 5px;
+    width: 895px;
+    border: 0px auto;
+    align-items: center;
+}
+.conteudo1{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: Verdana,cursive, sans-serif;
+}
+.conteudo1-principal-escrito-text1{
+    margin: 5px auto;
+ 
+    padding: 5px;
+    width: 895px;
+    border: 10px solid #d5d6da;
+
+}
+.div{
+    margin: 3px auto;
+    padding: 15px;
+    width: 895px;
+    border: 0px auto;
+    align-items: center;
+}
+
+.conteudo3{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    align-items: center;
+}
+.conteudo3-principal-escrito-text3{
+    margin: 5px auto;
+
+    padding: 5px;
+    width: 895px;
+    border: 10px solid #d5d6da;
+    align-items: center;
+
+}
+.conteudo3-principal-escrito-text3>li{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.form {
+    margin: 3px auto;
+    padding: 5px;
+    width: 895px;
+    border: 0px auto;
+    align-items: center;
+    left: 70;
+}
+.conteudo3-principal-escrito-text3-formulario{
+   left:200px;
+}
+.input #nome i 
+{ 
+   border:2px dashed red; 
+   border: 1px solid black;
+}
+.input #nome i 
+{
+visibility: visible;
+}
+.success2 input
+{
+   border: 2px dashed red;
+   border: 1px solid black;
+      
+}
+.success2 i .imga3
+{
+visibility: visible;
+}
+.error input
+{
+  border: 2px dashed red; 
+  border: 1px solid black;
+}
+.error i .Error{
+visibility:visible;
+}
+input:invalid{
+  border-color: #900;
+
+}
+input:focus:invalid {
+  outline: none;
+}
+.error.active {
+  padding: 0.3em;
+}
+.h1.the.index {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(2, 2, 5);
+color: rgb(247, 247, 247);
+word-break: break-all;
+}
+.pedido {
+    border: 50%;
+    width :396px ;
+    /* height :895px; */
+    
+    
+}
+.factura,ul,li {
+    
+
+    width :396px ; 
+    
+}
+.boutom {
+ 
+    width :87px ; 
+    background:#ec1010;
+    width: 125px
+height: 50px
+top: 723px
+left: 117px
+border-radius: 10px
+
+}
