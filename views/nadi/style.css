@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b1b;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.container {
+    height: 100vh;
+    max-width: 80vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    width: 100%;
+    height: 4.438rem;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.625rem;
+}
+
+.categorymenu {
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    height: 2.813rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+    /* display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr); */
+}
+
+.arrowbox {
+    width: 2.188rem;
+    height: 2.188rem;
+    background-color: rgba(109, 109, 109, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.9s all ease-in-out;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.titlemenu {
+    color: #000
+}
+
+.foodbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875;
+    border-radius: 5px;
+    border: 1px solid rgba(109, 109, 109, 0.50);
+    background: #FFF;
+    padding: 0.3rem;
+}
+
+.imgfood {
+    width: 4.813rem;
+    height: 4.688rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imgfull {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.textfood {
+    width: 9.125rem;
+    height: 4.688rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: start;
+}
+
+.textfood h3 {
+    color: rgba(109, 109, 109, 0.84);
+    text-align: center;
+}
+
+.textfood p {
+    font-size: .6rem;
+    text-align: center;
+    margin-top: 0.4rem;
+    color: #6D6D6D;
+}
+
+
+.buttonfood {
+    width: 4.688rem;
+    height: 4.688rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttosmall {
+    width: 1.563rem;
+    height: 1.563rem;
+    border-radius: 5px;
+    border: 1px solid rgba(109, 109, 109, 0.50);
+    background: #6D6D6D;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowbox:hover .buttosmall:hover {
+    background-color: black;
+}
+
+.totalbutton {
+    width: 325px;
+    height: 45px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
