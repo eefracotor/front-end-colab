@@ -1,0 +1,39 @@
+# {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100 vh;
+    max-height: 80 vw;
+    width: 100%;
+    background: url(./IMAGENS/3\ img.png);
+    object-fit: cover;
+}
+
+.prato {
+    position: relative;
+    width: 360px;
+    background-color: #1E1E1E;
+    border-radius: 50%;
+}
+.texto{
+    position:relative;
+    top: -190px;
+    color: #fff;
+}
+.botao{
+    background: #f22b0f;
+    color: #fff;
+    width: 216px;
+    height: 55px;
+    border-radius: 8px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
