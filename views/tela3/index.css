@@ -13,6 +13,9 @@ body {
 img {
     width: 100%;
 }
+ a {
+    text-decoration: none;
+ }
 
 .img-top {
     width: 100%;
@@ -41,7 +44,10 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    cursor: pointer;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .op-carnes{
