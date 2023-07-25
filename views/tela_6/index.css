@@ -8,6 +8,7 @@
  
 body {
     background-color: #1b1b1b;
+    height: 100vh;
 }
 img {
     width: 100%;
@@ -22,7 +23,7 @@ img {
 
 form {
     max-width: 600px;
-    height: auto;
+    height: 64vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
